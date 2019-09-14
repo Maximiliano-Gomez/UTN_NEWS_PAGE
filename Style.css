@@ -1,0 +1,14 @@
+H1{
+    color: white;
+    background: red;
+    margin-block-end: 2cm
+}
+body {
+	margin: 0;
+}
+header li{
+    list-style: none;
+	float: right;
+    padding-right: 20px;
+    font-size: 28px;    
+}
