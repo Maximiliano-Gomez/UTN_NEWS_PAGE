@@ -18,32 +18,25 @@ nav div{
     text-align: center;
     width: 100%;    
 }
-aside{
+main{
     display: flex;
+    background: #f2f6f8;
+    background: -moz-linear-gradient(left, #f2f6f8 0%, #d8e1e7 50%, #b5c6d0 51%, #bdefff 100%);
+    border-radius: 10px;
 }
-.contenido1 {
-    display: flex; justify-content: center;
-    background: yellow;
-    border: 1x solid blue;
-    width: 20%;
-    height: 550px;
-    text-align: center;
+main div{
+    background: #F4F2F8;
+    width: 25%;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 4px solid #000000;
 }
-.maincontent {
-    display: flex; justify-content: center;
-    background: red;
-    border: 1x black;
-    width: 60%;
-    height: 550px;
-    text-align: center;
+main p{
+    text-indent: 0.5cm;
 }
-.contenido3 {
-    display: flex; justify-content: center;
-    background: violet;
-    border: 1x red;
-    width: 20%;
-    height: 550px;
-    text-align: center;
+.artcentral img{
+    float: right;
 }
 footer{
     background: green;
