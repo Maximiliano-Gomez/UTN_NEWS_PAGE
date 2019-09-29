@@ -34,6 +34,16 @@ main{
 .columnaizquierda article img{
   width: 100%;
 }
+.columnaizquierda{
+    display: flex;
+    flex-direction: column;
+}
+.columnaizquierda article{
+    height: 50%;
+}
+.columnaizquierda article img{
+    width: 100%;
+}
 main div{
   background: #F4F2F8;
   width: 25%;
