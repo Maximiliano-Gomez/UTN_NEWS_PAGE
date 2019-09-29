@@ -18,11 +18,36 @@ nav div{
   text-align: center;
   width: 100%;    
 }
+.menuprincipal {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: blue;
+}
+a{
+  text-decoration: none;
+}
 main{
   display: flex;
   background: #f2f6f8;
-  background: -moz-linear-gradient(left, #f2f6f8 0%, #d8e1e7 50%, #b5c6d0 51%, #bdefff 100%);
-  border-radius: 10px;
+
 }
 .columnaizquierda{
   display: flex;
@@ -47,10 +72,7 @@ main{
 main div{
   background: #F4F2F8;
   width: 25%;
-  border-radius: 10px 10px 10px 10px;
-  -moz-border-radius: 10px 10px 10px 10px;
-  -webkit-border-radius: 10px 10px 10px 10px;
-  border: 4px solid #000000;
+  border: 4px solid #c5c0c0;
 }
 main p{
   text-indent: 0.5cm;
