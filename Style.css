@@ -1,44 +1,63 @@
 header{
-      background: green;
-    border: 1x solid blue;
-    height: 150px;
-    
+    background: green;
+  border: 1x solid blue;
+  height: 150px;
+  
 }
 header div{
-    text-align: center;
-    width: 100%;
+  text-align: center;
+  width: 100%;
 }
 
 nav{
-    background: orange;
-    border: 1px solid blue;
-    height: 100px;
+  background: orange;
+  border: 1px solid blue;
+  height: 100px;
 }
 nav div{
-    width: 100%;    
+  text-align: center;
+  width: 100%;    
 }
-/* Style the top navigation bar */
-.navbar {
-    display: flex;
-    background-color: #333;
-}
-
-/* Style the navigation bar links */
-.navbar a {
-    color: white;
-    padding: 14px 20px;
-    text-decoration: none;
-    text-align: center;
+.menuprincipal {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-/* Change color on hover */
-.navbar a:hover {
-    background-color: #ddd;
-    color: black;
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: blue;
+}
+a{
+  text-decoration: none;
 }
 main{
-    display: flex;
-    background: #f2f6f8;
+  display: flex;
+  background: #f2f6f8;
+
+}
+.columnaizquierda{
+  display: flex;
+  flex-direction: column;
+}
+.columnaizquierda article{
+  height: 50%;
+}
+.columnaizquierda article img{
+  width: 100%;
 }
 .columnaizquierda{
     display: flex;
@@ -51,15 +70,15 @@ main{
     width: 100%;
 }
 main div{
-    background: #F4F2F8;
-    width: 25%;
-    border: 4px solid #b4b4b4;
+  background: #F4F2F8;
+  width: 25%;
+  border: 4px solid #c5c0c0;
 }
 main p{
-    text-indent: 0.5cm;
+  text-indent: 0.5cm;
 }
 .artcentral img{
-    float: right;
+  float: right;
 }
 .columnaderecha{
     display: flex;
@@ -69,14 +88,13 @@ main p{
     width: 100%;
 }
 footer{
-    background: green;
-    border: 1x solid blue;
-    
+  background: green;
+  border: 1x solid blue;
+  
 
 }
 footer div{
-    width: 100%;
-    height: 100px;
-    text-align: center;
+  width: 100%;
+  height: 100px;
+  text-align: center;
 }
-    
