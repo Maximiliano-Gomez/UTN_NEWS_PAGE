@@ -90,6 +90,14 @@ main p{
 .columnaderecha img{
     width: 100%;
 }
+h4{
+  text-align: center;
+  color: red;
+}
+h3{
+  text-align: center;
+  color: red;
+}
 footer{
   background: whitesmoke;
   border: 1x solid blue;
