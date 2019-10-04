@@ -83,6 +83,13 @@ main p{
 .artcentral img{
   float: right;
 }
+.columnaderecha{
+    display: flex;
+    flex-direction: column;
+}
+.columnaderecha img{
+    width: 100%;
+}
 footer{
   background: whitesmoke;
   border: 1x solid blue;
