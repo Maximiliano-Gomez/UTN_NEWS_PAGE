@@ -89,6 +89,8 @@ main div{
 main p{
   text-indent: 0.5cm;
   color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
 }
 .artcentral img{
   float: right;
@@ -146,15 +148,19 @@ footer div{
     display: none;
   }
   main p {
-    text-align: center;
+    text-align: left;
   }
   main {
     display: flex;
     flex-direction: column;
+    width: 100vw;
   }
   article img {
     width: 100vw;
   }
+ }
+ .copyright{
+   display: inline-block;
  }
  @media only screen and (max-width: 1030px) {
    main {
