@@ -1,14 +1,47 @@
-header{
-    background: whitesmoke;
-  border: 1x solid blue;
-  height: 150px;
-  
-}
-header div{
-  text-align: center;
-  width: 100%;
+body {
+  margin: 0;
 }
 
+/* Header*/
+header div{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0;
+  background: black;
+}
+
+#logo{
+  text-align: center;
+  background: black;
+  background-image: url(logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 33%;
+}
+
+#social {
+  width: 33%;
+  background: black;
+  position: absolute;
+  top: 100px;
+  right: 350px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.li{
+  list-style-image: none;
+  }
+#clima {
+  width: 33%;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+
+/* Menu*/
 nav{
   background: orange;
   border: 1px solid blue;
@@ -36,6 +69,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: 'Oswald', sans-serif;
 }
 
 li a:hover {
@@ -44,13 +78,13 @@ li a:hover {
 a{
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
-  color: black;
+  color: white;
 }
+
 /* Cuerpo Principal*/
 main{
   display: flex;
-  background: white;
-
+  background: black;
 }
 .columnaizquierda article{
   height: 50%;
@@ -61,6 +95,7 @@ main{
 .columnaizquierda{
     display: flex;
     flex-direction: column;
+    background: black;
 }
 .columnaderecha article{
     height: 50%;
@@ -71,17 +106,26 @@ main{
 .columnaderecha {
   display: flex;
   flex-direction: column;
+  background: black;
 }
 main div{
   background: white;
   width: 25%;
-  border: 4px solid #c5c0c0;
+  border: 1px solid #c5c0c0;
 }
 main p{
   text-indent: 0.5cm;
+  text-indent: 0.5cm;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
 }
 .artcentral img{
   float: right;
+}
+p {
+  text-align: center;
+  color: whitesmoke;
 }
 .columnaderecha{
     display: flex;
@@ -97,18 +141,42 @@ h4{
 h3{
   text-align: center;
   color: red;
+  background: black;
 }
-footer{
-  background: whitesmoke;
-  border: 1x solid blue;
-  
+h5{
+  text-align: center;
+  color: white;
+}
 
+/*Footer*/
+footer{
+  background: #85929E;
 }
 footer div{
   width: 100%;
-  height: 100px;
-  text-align: center;
 }
+.listafooter{
+  font-family: 'Ubuntu', sans-serif;
+  margin: 5px;
+}
+.listafooter li{
+  list-style: none;
+}
+.listafooter li a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 4px 4px;
+  text-decoration: none;
+}
+.listafooter li a:hover {
+  text-decoration-line: underline;
+}
+.copyright p{
+  font-family: 'Inconsolata', monospace;
+  margin: 5px;
+}
+
 /*Estilos Responsive*/
 @media only screen and (max-width: 600px) {
   .columnaizquierda {
