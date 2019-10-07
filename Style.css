@@ -31,8 +31,8 @@ header div{
   justify-content: flex-start;
 }
 
-.li{
-  list-style-image: none;
+#social ul li{
+  list-style: none;
   }
 #clima {
   width: 33%;
