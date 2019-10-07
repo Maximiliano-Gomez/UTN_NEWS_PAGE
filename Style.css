@@ -2,18 +2,18 @@ body {
   margin: 0;
 }
 
-/* Header*/
+/* ---------------------------------------------------------Header----------------------------------------------------*/
 header div{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   margin: 0;
-  background: black;
+  background: whitesmoke;
 }
 
 #logo{
   text-align: center;
-  background: black;
+  background: whitesmoke;
   background-image: url(logo.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -23,7 +23,7 @@ header div{
 
 #social {
   width: 33%;
-  background: black;
+  background: whitesmoke;
   position: absolute;
   top: 100px;
   right: 350px;
@@ -41,7 +41,7 @@ header div{
 }
 
 
-/* Menu*/
+/* ---------------------------------------------------Menu------------------------------------------------------------*/
 nav{
   background: orange;
   border: 1px solid blue;
@@ -81,10 +81,13 @@ a{
   color: white;
 }
 
-/* Cuerpo Principal*/
+/* --------------------------------------Cuerpo Principal----------------------------------------------------*/
 main{
   display: flex;
-  background: black;
+  background: whitesmoke;
+}
+main a{
+  color: black;
 }
 .columnaizquierda article{
   height: 50%;
@@ -95,7 +98,7 @@ main{
 .columnaizquierda{
     display: flex;
     flex-direction: column;
-    background: black;
+    background: whitesmoke;
 }
 .columnaderecha article{
     height: 50%;
@@ -106,7 +109,7 @@ main{
 .columnaderecha {
   display: flex;
   flex-direction: column;
-  background: black;
+  background: whitesmoke;
 }
 main div{
   background: white;
@@ -116,7 +119,7 @@ main div{
 main p{
   text-indent: 0.5cm;
   text-indent: 0.5cm;
-  color: white;
+  color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
 }
@@ -125,7 +128,7 @@ main p{
 }
 p {
   text-align: center;
-  color: whitesmoke;
+  color: black;
 }
 .columnaderecha{
     display: flex;
@@ -141,14 +144,14 @@ h4{
 h3{
   text-align: center;
   color: red;
-  background: black;
+  background: white;
 }
 h5{
   text-align: center;
-  color: white;
+  color: black;
 }
 
-/*Footer*/
+/*----------------------------------------------------Footer------------------------------------------------------*/
 footer{
   background: #85929E;
 }
@@ -177,7 +180,7 @@ footer div{
   margin: 5px;
 }
 
-/*Estilos Responsive*/
+/*--------------------------------------------Estilos Responsive--------------------------------------------------*/
 @media only screen and (max-width: 600px) {
   .columnaizquierda {
     display: none;
