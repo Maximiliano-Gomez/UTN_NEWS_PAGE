@@ -21,7 +21,8 @@ header div{
 }
 
 #social {
-  justify-content: center end;
+  justify-content: center;
+  align-items: center;
   width: 33%;
 }
 
@@ -77,7 +78,7 @@ a{
 /* --------------------------------------Cuerpo Principal----------------------------------------------------*/
 main{
   display: flex;
-  background: whitesmoke;
+  background: white;
 }
 main a{
   color: black;
@@ -150,6 +151,7 @@ footer{
 }
 footer div{
   width: 100%;
+  
 }
 .listafooter{
   font-family: 'Ubuntu', sans-serif;
