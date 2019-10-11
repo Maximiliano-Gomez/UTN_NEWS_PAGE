@@ -58,6 +58,7 @@ nav div{
   display: flex;
   justify-content: center;
   list-style-type: none;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -246,6 +247,10 @@ textarea {
   }
   #cont_82e8c0e6a6dd33517097c3e97d996b43 {
     display: none;
+  }
+  .menuprincipal{
+    display: flex;
+    
   }
   
   .columnaizquierda {
