@@ -212,8 +212,8 @@ form {
 input, textarea {
     width:380px;
     height:27px;
-    background:#666666;
-    border:2px solid #f6f6f6;
+    background: white;
+    border:2px solid gray;
     padding:10px;
     margin-top:5px;
     font-size:10px;
