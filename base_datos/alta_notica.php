@@ -54,7 +54,15 @@
 
         </select>
     
-    </label>
+    </label><br>
+
+
+    <form enctype="multipart/form-data" action="__URL__" method="POST">
+    <!-- El nombre del elemento de entrada determina el nombre en el array $_FILES -->
+     Seleccionar Imagen: <input name="fichero_usuario" type="file" />
+    <input type="submit" value="Enviar fichero" />
+    </form>
+
     <button type="submit">AGREGAR</button>
     <button type="reset">RESET</button>
 

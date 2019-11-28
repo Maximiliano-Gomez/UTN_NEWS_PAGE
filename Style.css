@@ -36,12 +36,15 @@ header aside a img {
 header #social  ul li:hover{
   transform:scale(1.4);
 }
-#cont_82e8c0e6a6dd33517097c3e97d996b43 {
-  width: 175px;
-  background: whitesmoke;
-  position: absolute;
-  right: 10px;
-  }
+
+form button {
+    width:85px;
+    height:35px;
+    border-radius: 20px;
+    margin-top:20px;
+    cursor:pointer;
+    
+}
 
 
 /* ---------------------------------------------------Menu------------------------------------------------------------*/
@@ -94,6 +97,10 @@ main{
 }
 main a{
   color: black;
+}
+
+main image{
+  float: right;
 }
 .columnaizquierda article{
   height: 50%;
@@ -212,13 +219,13 @@ form {
  
 input, textarea {
     width:380px;
-    height:27px;
+    height:10px;
     background: white;
-    border:2px solid gray;
+    border-radius: 20px;
     padding:10px;
     margin-top:5px;
     font-size:10px;
-    color:#ffffff;
+    color:black;
 }
  
 textarea {
@@ -228,9 +235,10 @@ textarea {
 #submit {
     width:85px;
     height:35px;
-    border:none;
+    border-radius: 20px;
     margin-top:20px;
     cursor:pointer;
+    background: gray;
 }
 
 
