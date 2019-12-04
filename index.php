@@ -1,3 +1,9 @@
+<?php
+    include "base_datos/configuracion.php";
+    $conexion = mysqli_connect(DB_HOST, DB_USER, DB_PWD, DB_DB);
+?>
+
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -23,7 +29,11 @@
                             <li><a href="https://www.youtube.com/?gl=AR&tab=w1"><img src="yout.png" alt=""></a></li>
                         </ul>
                 </div>
-                <div id="cont_82e8c0e6a6dd33517097c3e97d996b43"><script  async src="https://www.meteored.com.ar/wid_loader/82e8c0e6a6dd33517097c3e97d996b43"></script></div> 
+                <form action="base_datos\login.php" method="post">
+                    <input type="text" name="username" placeholder="Usuario">
+                    <input type="password" name="password" placeholder="Contraseña">
+                    <button type="submit">Ingresar</button>
+                </form> 
         </div>
     </header>
 
@@ -57,15 +67,26 @@
 
         </div>
         <article class="artcentral">
-            <a href=""><h2>Cómo la CIA usó palomas mensajeras durante la Guerra Fría para operaciones de espionaje contra la Unión Soviética                </h2></a>
-            <h5>Gordon Corera
-                    BBC, Corresponsal de Seguridad</h5>
-            <img src="mainimage.jpg" alt="Agente Paloma">
-            <p>   La Agencia Central de Inteligencia (CIA) de EE.UU. ha desclasificado detalles de sus misiones secretas con palomas espías durante la Guerra Fría.</p><br>
-            <p>   Estos archivos revelan cómo las palomas fueron entrenadas para misiones clandestinas que consistían en fotografiar sitios de interés dentro de la Unión Soviética.</p><br>
-            <p>   Asimismo, revelan cómo también usaron cuervos para colocar micrófonos en los alféizares de las ventanas y los delfines fueron entrenados para misiones submarinas similares.</p><br>
-            <p>   La CIA creía que los animales podían cumplir tareas "únicas" en algunas de sus operaciones clandestinas.Dentro de la sede de la agencia en Langley, Virginia, hay un museo, al que tristemente no tiene acceso el público general.</p>
-
+                <?php
+                    $sql = "select * from noticia where id=1";
+                    $respuesta = mysqli_query($conexion, $sql);
+                    $fila = mysqli_fetch_array($respuesta);
+                ?>
+                <h2>
+                    <?php
+                         echo $fila["titulo"];
+                    ?>
+                </h2>
+                <h5><?php
+                         echo $fila["subtitulo"];
+                ?>
+                </h5>
+            <img src="<?php echo $fila['imagen_1'];?>" alt="Agente Paloma">
+                <p>
+                     <?php
+                         echo $fila["contenido"];
+                     ?>           
+                </p>
 
         </article>
         <div class="columnaderecha">
