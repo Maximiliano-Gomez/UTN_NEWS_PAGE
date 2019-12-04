@@ -73,7 +73,6 @@
             }
         ?>
         </select>
-    
     </label><br>
 
 
@@ -82,9 +81,6 @@
      Seleccionar Imagen: <input name="fichero_usuario" type="file" />
     <input type="submit" value="Enviar fichero" />
     </form>
-
-    <button type="submit">AGREGAR</button>
-    <button type="reset">RESET</button>
 
     <button type="submit">Enviar Noticia</button>
     <button type="reset">Borrar Noticia</button>
