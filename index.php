@@ -1,9 +1,3 @@
-<?php
-    include "base_datos/configuracion.php";
-    $conexion = mysqli_connect(DB_HOST, DB_USER, DB_PWD, DB_DB);
-?>
-
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
