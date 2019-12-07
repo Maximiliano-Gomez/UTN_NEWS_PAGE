@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 12-11-2019 a las 00:11:33
+-- Tiempo de generación: 04-12-2019 a las 18:06:12
 -- Versión del servidor: 10.4.8-MariaDB
 -- Versión de PHP: 7.1.32
 
@@ -40,7 +40,8 @@ CREATE TABLE `autor` (
 INSERT INTO `autor` (`id`, `nombre`) VALUES
 (1, 'adrian'),
 (2, 'maxi'),
-(3, 'periodista');
+(3, 'periodista'),
+(4, 'jose manuela');
 
 -- --------------------------------------------------------
 
@@ -92,7 +93,8 @@ CREATE TABLE `noticia` (
 --
 
 INSERT INTO `noticia` (`id`, `titulo`, `subtitulo`, `imagen_1`, `contenido`, `fecha`, `genero_id`, `autor_id`, `activo`, `destacadas`) VALUES
-(1, 'Cómo la CIA usó palomas mensajeras durante la Guerra Fría para operaciones de espionaje contra la Unión Soviética\r\n', 'Gordon Corera BBC, Corresponsal de Seguridad', 'mainimage.jpg', 'La Agencia Central de Inteligencia (CIA) de EE.UU. ha desclasificado detalles de sus misiones secretas con palomas espías durante la Guerra Fría.\r\n\r\n\r\nEstos archivos revelan cómo las palomas fueron entrenadas para misiones clandestinas que consistían en fotografiar sitios de interés dentro de la Unión Soviética.\r\n\r\n\r\nAsimismo, revelan cómo también usaron cuervos para colocar micrófonos en los alféizares de las ventanas y los delfines fueron entrenados para misiones submarinas similares.\r\n\r\n\r\nLa CIA creía que los animales podían cumplir tareas \"únicas\" en algunas de sus operaciones clandestinas.Dentro de la sede de la agencia en Langley, Virginia, hay un museo, al que tristemente no tiene acceso el público general.', '2019-11-08 00:00:00', 6, 1, b'1', b'0');
+(1, 'Cómo la CIA usó palomas mensajeras durante la Guerra Fría para operaciones de espionaje contra la Unión Soviética\r\n', 'Gordon Corera BBC, Corresponsal de Seguridad', 'mainimage.jpg', 'La Agencia Central de Inteligencia (CIA) de EE.UU. ha desclasificado detalles de sus misiones secretas con palomas espías durante la Guerra Fría.\r\n\r\n\r\nEstos archivos revelan cómo las palomas fueron entrenadas para misiones clandestinas que consistían en fotografiar sitios de interés dentro de la Unión Soviética.\r\n\r\n\r\nAsimismo, revelan cómo también usaron cuervos para colocar micrófonos en los alféizares de las ventanas y los delfines fueron entrenados para misiones submarinas similares.\r\n\r\n\r\nLa CIA creía que los animales podían cumplir tareas \"únicas\" en algunas de sus operaciones clandestinas.Dentro de la sede de la agencia en Langley, Virginia, hay un museo, al que tristemente no tiene acceso el público general.\r\nLa Agencia Central de Inteligencia (CIA) de EE.UU. ha desclasificado detalles de sus misiones secretas con palomas espías durante la Guerra Fría.\r\n\r\n\r\nEstos archivos revelan cómo las palomas fueron entrenadas para misiones clandestinas que consistían en fotografiar sitios de interés dentro de la Unión Soviética.\r\n\r\n\r\nAsimismo, revelan cómo también usaron cuervos para colocar micrófonos en los alféizares de las ventanas y los delfines fueron entrenados para misiones submarinas similares.\r\n\r\n\r\nLa CIA creía que los animales podían cumplir tareas \"únicas\" en algunas de sus operaciones clandestinas.Dentro de la sede de la agencia en Langley, Virginia, hay un museo, al que tristemente no tiene acceso el público general.\r\nLa Agencia Central de Inteligencia (CIA) de EE.UU. ha desclasificado detalles de sus misiones secretas con palomas espías durante la Guerra Fría.\r\n\r\n\r\nEstos archivos revelan cómo las palomas fueron entrenadas para misiones clandestinas que consistían en fotografiar sitios de interés dentro de la Unión Soviética.\r\n\r\n\r\nAsimismo, revelan cómo también usaron cuervos para colocar micrófonos en los alféizares de las ventanas y los delfines fueron entrenados para misiones submarinas similares.\r\n\r\n\r\nLa CIA creía que los animales podían cumplir tareas \"únicas\" en algunas de sus operaciones clandestinas.Dentro de la sede de la agencia en Langley, Virginia, hay un museo, al que tristemente no tiene acceso el público general.\r\nLa Agencia Central de Inteligencia (CIA) de EE.UU. ha desclasificado detalles de sus misiones secretas con palomas espías durante la Guerra Fría.\r\n\r\n\r\nEstos archivos revelan cómo las palomas fueron entrenadas para misiones clandestinas que consistían en fotografiar sitios de interés dentro de la Unión Soviética.\r\n\r\n\r\nAsimismo, revelan cómo también usaron cuervos para colocar micrófonos en los alféizares de las ventanas y los delfines fueron entrenados para misiones submarinas similares.\r\n\r\n\r\nLa CIA creía que los animales podían cumplir tareas \"únicas\" en algunas de sus operaciones clandestinas.Dentro de la sede de la agencia en Langley, Virginia, hay un museo, al que tristemente no tiene acceso el público general.', '2019-11-08 00:00:00', 6, 1, b'1', b'1'),
+(2, 'Los deportistas profesionales se cuelan en los torneos de videojuegos', 'Javier Cortes Especialista de Tecnologia\r\n', '../tecnologia.ima.jpg', 'La última vez que el Mónaco alcanzó una final en un torneo europeo fue en 2004 y fue amarga: el Oporto le arrebató la que pudo haber sido su primera Champions League.\r\n\r\n\r\nEste año, el equipo monegasco disputó otra final en la que se impuso al Celtic, aunque la competición no tuvo lugar en los estadios a los que nos tiene acostumbrados la Liga de Campeones: esta vez, el partido se jugaba dentro de una computadora.\r\n\r\n\r\nLos organizadores de la liga eFootball.Pro, un torneo de eSports de fútbol pensado para clubes de fútbol, pueden estar contentos con los resultados de su primera edición. Trabajan mano a mano con Konami -la compañía que desarrolla el videojuego Pro Evolution Soccer-, han organizado eventos en España, Italia y Alemania y han alcanzado una audiencia nada desdeñable: los videos en directo de los partidos de la competición tuvieron más de un millón y medio de visualizaciones. Lo más curioso de todo esto es que el impulsor de esta iniciativa y creador de Esports Media Rights, la compañía que gestiona este torneo, no es un empresario al uso, sino el futbolista profesional Gerard Piqué.\r\n\r\n\r\n\"Piqué ha aportado al proyecto su conocimiento del sector deportivo, clave para conseguir que jugadores y clubes estén a gusto y que la competición tenga interés para los espectadores y aficionados\", señala el director ejecutivo de la empresa, Jordi Orteu. En su opinión, todavía estamos empezando a ver lo que los deportistas tradicionales pueden aportar a los eSports. \"Con la evolución y el crecimiento del sector, es probable que esta tendencia vaya en aumento y la implicación de los deportistas sea mayor\".', '2019-12-03 00:00:00', 8, 1, b'1', b'0');
 
 --
 -- Índices para tablas volcadas
@@ -126,7 +128,7 @@ ALTER TABLE `noticia`
 -- AUTO_INCREMENT de la tabla `autor`
 --
 ALTER TABLE `autor`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT de la tabla `genero`
@@ -138,7 +140,7 @@ ALTER TABLE `genero`
 -- AUTO_INCREMENT de la tabla `noticia`
 --
 ALTER TABLE `noticia`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- Restricciones para tablas volcadas

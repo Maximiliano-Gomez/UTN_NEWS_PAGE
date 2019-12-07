@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <title>Nbc News</title>
+    <script>
+        function validarBorrar() {
+            return confirm("Seguro que deseas borrar...");
+        }
+    </script>
+    
 </head>
 <body>
     <?php
@@ -15,22 +22,32 @@
                 inner join genero on genero_id=genero.id";
         $respuesta = mysqli_query($conexion, $sql);
     ?>
-    <table>
+    <table class="table" >
+    <thead class="thead-dark">
+
         <tr>
-            <th>Titulo</th>
-            <th>Autor</th>
-            <th>Genero</th>
-            <th></th>
+            <th scope="col">Titulo</th>
+            <th scope="col">Autor</th>
+            <th scope="col">Genero</th>
+            <th scope="col">ID</th>
+            <th scope="col">Acciones</th>
         </tr>
     <?php
         while($fila = mysqli_fetch_array($respuesta)) {
             $titulo = $fila["titulo"];
             $autor = $fila["autor"];
             $genero = $fila["genero"];
+            $id = $fila["id"];
             echo "<tr>
-                    <td>$titulo</td>
+                    <td>$titulo...</td>
                     <td>$autor</td>
                     <td>$genero</td>
+                    <td>$id</td>
+                    <td>
+                        <button><a href='borrar_noticia.php?id=$id' onclick='return validarBorrar()'>Borrar</a></button>
+                        <button><a href='tab.php?id=$id' >Ver</a></button>
+
+                    </td>
                   </tr>";
         }
 

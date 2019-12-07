@@ -4,7 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Nbc News</title>
+    <style>
+        body{
+            display:flex;
+            justify-content:center;
+            margin-top:125px;
+            background: gray;
+            color: black;
+            font-size: 15pt; 
+        }
+     </style>   
 </head>
 <body>
         <form action="agregar_guardar.php" method="post">

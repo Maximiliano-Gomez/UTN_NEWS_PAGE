@@ -13,12 +13,12 @@ if (!isset($_SESSION["login_ok"])) {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-   <title>Bienvenido</title>
+   <title>Nbc News</title>
    <style>
-   body {
+   body { 
            text-align:center;
-            background: black;
-            color: whitesmoke;
+            background: gray;
+            color: black;
             margin: 400px;
            font-size: 10pt;
    }
@@ -55,22 +55,18 @@ if (!isset($_SESSION["login_ok"])) {
     <h1>Panel De Control<h1><br>
        <nav class="menu">
            <ul>
-               <li><a href="#">Usuario</a>
+               <li><a href="listado_autores.php">Usuarios</a>
+               </li>
+               
+                <li><a href="#">Noticias</a>
                    <ul>
-                       <li><a href="listado_autores.php">Ver</a></li>
-                       <li><a href="#">Agregar</a></li>
-                       <li><a href="#">Editar</a></li>
-                       <li><a href="#">Borrar</a></li>
+                       <li><a href="listado_noticias.php">Ver</a></li>
+                       <li><a href="alta_notica.php">Modificar</a></li>
                    </ul>
                </li>
-               <li><a href="#">Noticia</a>
-                   <ul>
-                       <li><a href="#">Ver</a></li>
-                       <li><a href="alta_notica.php">Agregar</a></li>
-                       <li><a href="#">Editar</a></li>
-                       <li><a href="#">Borrar</a></li>
-                   </ul>
+               <li><a href="logout.php">Salir</a>
                </li>
+
            </ul>
        </nav>
 </body>

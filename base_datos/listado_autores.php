@@ -1,16 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Nbc News</title>
     <link rel="stylesheet" href="estilos.css">
     <script>
         function validarBorrar() {
             return confirm("Seguro que deseas borrar...");
         }
     </script>
+    <style>
+        body{
+            display:flex;
+            justify-content:center;
+            margin-top:125px;
+            background: gray;
+            color: black;
+            font-size: 15pt; 
+        }
+    </style>    
+
 </head>
 <body>
     <div class="container">
@@ -19,7 +30,7 @@
         <table class="table table-striped">
             <tr>
                 <th>Nombre</th>
-                <th></th>
+                <th>Acción</th>
             </tr>
     <?php
         include "configuracion.php";
@@ -34,7 +45,7 @@
                     <td>
                         <a href='borrar.php?id=$id' onclick='return validarBorrar()'>Borrar</a>
                         <a href='editar.php?id=$id' >Editar</a>
-                        <a href='agregar.php?id=$id' >agregar</a>
+                        <a href='agregar.php?id=$id' >Agregar</a>
 
                     </td>
                 </tr>";
