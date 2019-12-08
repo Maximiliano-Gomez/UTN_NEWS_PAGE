@@ -33,16 +33,16 @@
         </div>
     </header>
     <ul class="menuprincipal">
-        <li><a class="active" href="index.php">INICIO</a></li>
-        <li><a href="pag_blanco.html">Politica</a></li>
-        <li><a href="pag_blanco.html">Policiales</a></li>
-        <li><a href="pag_blanco.html">Deportes</a></li>
-        <li><a href="pag_blanco.html">Espectaculos</a></li>
-        <li><a href="pag_blanco.html">Economia</a></li>
-        <li><a href="pag_blanco.html">Mundo</a></li>
-        <li><a href="pag_blanco.html">Sociedad</a></li>
-        <li><a href="pag_tecno.html">Tecnologia</a></li>
-        <li><a href="pag_blanco.html">Cultura</a></li>
+        <li><a class="active" href="../index.php">INICIO</a></li>
+        <li><a href="../pag_blanco.html">Politica</a></li>
+        <li><a href="../pag_blanco.html">Policiales</a></li>
+        <li><a href="../pag_blanco.html">Deportes</a></li>
+        <li><a href="../pag_blanco.html">Espectaculos</a></li>
+        <li><a href="../pag_blanco.html">Economia</a></li>
+        <li><a href="../pag_blanco.html">Mundo</a></li>
+        <li><a href="../pag_blanco.html">Sociedad</a></li>
+        <li><a href="../pag_tecno.html">Tecnologia</a></li>
+        <li><a href="../pag_blanco.html">Cultura</a></li>
       </ul>
       <main>
 
@@ -78,12 +78,12 @@
       <footer> 
         <div>
         <ul class="listafooter">
-            <li><a href="pag_blanco.html">Terms of Use</a></li>
-            <li><a href="pag_blanco.html">About NBC</a></li>
-            <li><a href="pag_blanco.html">Privacy policy</a></li>
-            <li><a href="pag_blanco.html">Cookies</a></li>
-            <li><a href="pag_blanco.html">Accesibility Help</a></li>
-            <li><a href="pag_formulario.html">Contact the NBC</a></li>
+            <li><a href="../pag_blanco.html">Terms of Use</a></li>
+            <li><a href="../pag_blanco.html">About NBC</a></li>
+            <li><a href="../pag_blanco.html">Privacy policy</a></li>
+            <li><a href="../pag_blanco.html">Cookies</a></li>
+            <li><a href="../pag_blanco.html">Accesibility Help</a></li>
+            <li><a href="../pag_formulario.html">Contact the NBC</a></li>
         </ul>
         </div>
         <div class="copyright">

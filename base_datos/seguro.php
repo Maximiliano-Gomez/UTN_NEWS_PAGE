@@ -14,13 +14,13 @@ if (!isset($_SESSION["login_ok"])) {
 <head>
     <meta charset="UTF-8">
    <title>Nbc News</title>
+   
    <style>
    body { 
            text-align:center;
-            background: gray;
-            color: black;
+            
             margin: 400px;
-           font-size: 10pt;
+           font-size: 8pt;
    }
    h1 {
        display: flex;
@@ -36,9 +36,10 @@ if (!isset($_SESSION["login_ok"])) {
    .menu a {
         display: block;
         padding: 0.5em;
-        background-color: aquamarine;
+        background-color: #879EAD;
         text-decoration: none;
         color: #191C26;
+        border-radius: 20px;
    }
   .menu a:hover {
         background-color: whitesmoke;
@@ -49,7 +50,7 @@ if (!isset($_SESSION["login_ok"])) {
     .menu ul li a:hover + ul, .menu ul li ul:hover {
         display: block;
     }
-   </style>
+    </style>
 </head>
 <body>
     <h1>Panel De Control<h1><br>
@@ -69,5 +70,6 @@ if (!isset($_SESSION["login_ok"])) {
 
            </ul>
        </nav>
+       
 </body>
 </html>

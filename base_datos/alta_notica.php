@@ -11,28 +11,21 @@
     <link rel="stylesheet" href="../style.css">
     <title>Nbc News</title>
     <style>
-        body{
-            background:whitesmoke;
-        }
         h1{
             display:flex;
             justify-content:center;
             margin-top:50px;
             }
-        form {
-            margin-top:50px;
-            margin-left:550px;
-        }
+        
         button{
             margin-top:50px;
             margin-left:550px;
         }
-
     </style>
 
 <body>
 
-<h1>Bienvenido A La Pagina De Carga De Noticias</h1>
+<h1>Bienvenido A La Pagina De Carga De Noticias</h1></br>
 
 
 <form action="agregar_noticia.php" method="post" class="noticias_alta">
@@ -91,7 +84,9 @@
 
 
     <button type="submit">Enviar Noticia</button>
-    <button type="reset">Borrar Noticia</button>
+    <button type="reset">Resetear Noticia</button>
+    <button type="button" onclick="history.back()" value="volver atrás">Volver Atrás</button>
+    
 </body>
 </form>
 </html>

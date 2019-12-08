@@ -20,12 +20,12 @@ $nombre = $fila["nombre"];
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Nbc News</title>
+   
     <style>
         body{
             display:flex;
             justify-content:center;
             margin-top:125px;
-            background: gray;
             color: black;
             font-size: 15pt; 
         }
@@ -38,6 +38,7 @@ $nombre = $fila["nombre"];
     echo " <input type='text' name='nombre' value='$nombre'>";
   ?>
   <button type="submit">Guardar</button>
+  <button type="button" onclick="history.back()" value="volver atrás">Volver Atrás</button>
 </form>
 </body>
 </html>
