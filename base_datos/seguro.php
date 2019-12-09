@@ -62,7 +62,7 @@ if (!isset($_SESSION["login_ok"])) {
                 <li><a href="#">Noticias</a>
                    <ul>
                        <li><a href="listado_noticias.php">Ver</a></li>
-                       <li><a href="alta_notica.php">Modificar</a></li>
+                       <li><a href="alta_notica.php">Agregar</a></li>
                    </ul>
                </li>
                <li><a href="logout.php">Salir</a>

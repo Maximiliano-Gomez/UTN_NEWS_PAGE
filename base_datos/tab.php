@@ -17,16 +17,16 @@
 <body>
     <header>
         <aside>
-            <a href="https://www.disco.com.ar/Login/PreHome.aspx"><img src="publi.jpg" alt="publicidad" ></a>
+            <a href="https://www.disco.com.ar/Login/PreHome.aspx"><img src="../publi.jpg" alt="publicidad" ></a>
         </aside>
         <div class="header">
                 <div id= "logo"></div> 
                 <div id= "social">
                         <ul>
-                            <li><a href="https://www.instagram.com/"><img src="insta.png" alt=""></a></li>
-                            <li><a href="https://www.facebook.com/"><img src="face.png" alt=""></a></li>
-                            <li><a href="https://twitter.com/"><img src="twi.png" alt=""></a></li>
-                            <li><a href="https://www.youtube.com/?gl=AR&tab=w1"><img src="yout.png" alt=""></a></li>
+                            <li><a href="https://www.instagram.com/"><img src="../insta.png" alt=""></a></li>
+                            <li><a href="https://www.facebook.com/"><img src="../face.png" alt=""></a></li>
+                            <li><a href="https://twitter.com/"><img src="../twi.png" alt=""></a></li>
+                            <li><a href="https://www.youtube.com/?gl=AR&tab=w1"><img src="../yout.png" alt=""></a></li>
                         </ul>
                 </div>
                 <div id="cont_82e8c0e6a6dd33517097c3e97d996b43"><script  async src="https://www.meteored.com.ar/wid_loader/82e8c0e6a6dd33517097c3e97d996b43"></script></div> 
